@@ -1,7 +1,7 @@
 # Import necessary libraries
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
+# from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup as bs
 import time
@@ -14,7 +14,7 @@ from dateutil.relativedelta import relativedelta
 chrome_options = Options()
 today = datetime.today().strftime('%Y-%m-%d')
 
-#LinkedIn Credentials
+# LinkedIn Credentials
 username=""
 password=""
 
